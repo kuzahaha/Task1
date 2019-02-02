@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Task1</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body onload="onPageLoad()">
+	<header class="global-header">
+		<div class="header-line"></div>
+		<div class="header-main">
+			<div class="header-logo">
+		        <img src="spring-logo-3b6f842fa77c3bea3bac17dbce36a101.png" alt="img"></div> 
+		        <div id="burger" onclick="openF()"><img src="bars-solid.svg" alt=""></div>
+			
+			<nav id="navig"><ul class="header-nav">
+				<li id="s2" ><p>
+					 <form action="" method="get">
+                            <input id="search-input2" name="srch" placeholder="Search for documentation,guides and posts..." type="search">
+                            <div id="sbmt2"><img src="search-solid.svg" onclick="searchSbmt2()" alt="logo"></div>
+                        </form>
+				</p></li>
+				<li><p>projects</p></li>
+			    <li><p>guides</p></li>
+				<li><p>blog</p></li>
+				<li><p>training&certification</p></li>
+				<li id="s1" onclick="searchF()"><p><img src="search-solid.svg" id="logo-search" alt="logo"></p>
+				    <div id="search" tabindex="0" onblur="blured()">
+			            <form action="" method="get">
+                            <input id="search-input" name="srch" placeholder="Search for documentation,guides and posts..." type="search">
+                            <div id="sbmt"><img src="search-solid.svg" onclick="searchSbmt()" alt="logo"></div>
+                        </form>
+		            </div></li>
+			</ul></nav> 	
+	    </div>
+		</div>
+	</header>
+	<section id="section">
+		
+	</section>
+</body>
+</html>
